@@ -162,3 +162,7 @@ list of server files it won't deploy. They do nothing on a site without those fi
 - One release branch, `main`, per repo.
 - Built for static sites whose `index.html` loads one hashed main script; that file name is
   how `ship.sh` proves which build is live.
+
+## License
+
+MIT — free to use, change and share; keep the copyright line. See `LICENSE`.

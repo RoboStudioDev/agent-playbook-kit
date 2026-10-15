@@ -3,10 +3,10 @@
 **How one person runs a team of AI coding agents, from several different apps, on the same
 codebase, without them breaking each other's work or the live site.**
 
-This kit is a working system, not a thought experiment. It's the cleaned-up version of a setup
-that runs a small studio's products day to day with agents in Claude Code, Codex, Cursor,
-Conductor, Antigravity and a local model, and it's built so the owner never has to open a
-terminal. It's two things:
+This kit is a working system, not a thought experiment. It's the cleaned-up version of the setup
+[RoboStudio](https://robostudio.dev) uses to build and run its products day to day with agents in
+Claude Code, Codex, Cursor, Conductor, Antigravity and a local model, and it's built so the owner
+never has to open a terminal. It's two things:
 
 - **A Playbook** (`playbook/PLAYBOOK.md`): one page of rules every agent reads, stamped into
   each repo's `CLAUDE.md`, `AGENTS.md` and `GEMINI.md` so every app's agent gets the same text.
